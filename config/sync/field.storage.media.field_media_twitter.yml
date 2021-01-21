@@ -1,0 +1,21 @@
+uuid: 113dceb6-a109-48e2-88e5-e38365141c3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_media_twitter
+field_name: field_media_twitter
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
